@@ -1,0 +1,93 @@
+body, 
+p   {
+    padding: 0;
+    margin: 0;
+    font-style:normal;
+    color: black;
+    text-align: center;
+    
+}
+
+ 
+
+.principal {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 100px 450px 150px;
+    grid-template-areas: "cabecalho cabecalho" 
+                         "secao barra-lateral" 
+                         "rodape rodape";
+    border-collapse: collapse;
+}
+
+ 
+
+header {
+   grid-area: cabecalho;
+   background-color:goldenrod; 
+}
+
+ 
+
+section {
+    grid-area: secao;
+    background-color:orangered; 
+    font-size: 30px;
+    
+ }
+
+ 
+
+ aside {
+    grid-area: barra-lateral;
+    background-color: #E0D475;  
+    
+ }
+
+ 
+
+ footer {
+    grid-area: rodape;
+    background-color:aquamarine;
+    display: block;
+    justify-content: space-evenly;
+ }
+
+    header{
+        font-size: 50px;
+        color: azure;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+
+    }
+    .gosto{
+        text-align: left;
+        font-size: 20px;
+        color: azure;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .logo1 {
+        width: 100px;
+        height: 60px;
+        float: left;
+        
+        
+    }
+    .fotoperfil{
+        width: 200px;
+        height: auto;
+        border-radius: 100%;
+    }
+    .insta{
+        float: left;
+        font-size: 20px;
+    }
+    .logoinsta{
+        float: left;
+        display: block;
+        width: 10%;
+        height: auto%;
+        
+    }
